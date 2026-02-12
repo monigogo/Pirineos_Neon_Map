@@ -1,25 +1,21 @@
-<h1>Mapa animado en estilo neón de los Pirineos</h1>
+# 🏔️ Pirineos Neon-Visualizer
 
-<p>
-Este proyecto muestra una visualización animada de los Pirineos (Huesca), destacando:
-</p>
+Visualización animada de los Pirineos (Huesca) con datos de **OpenStreetMap**. Este proyecto resalta tresmiles y estaciones de esquí con un estilo neón dinámico.
 
-<ul>
-  <li><strong>Cumbres de más de 3000 metros</strong></li>
-  <li><strong>Estaciones de esquí</strong></li>
-</ul>
+## 📺 Visualización
+![Mapa[Uploading Pirineos_Mapa_Interactivo.ipynb…]()
+ Animado](./pirineos_neon.gif)![huesca_final_style](https://github.com/user-attachments/assets/ac94a308-96c5-4a91-8daa-ef443833a12a)
 
-<p>
-La animación está creada en Python utilizando GeoPandas, Matplotlib, OSMnx y NumPy, con un estilo visual inspirado en luces de neón y efectos dinámicos.
-</p>
 
-<h2>Demo</h2>
 
-<p>Aquí puedes ver la animación generada:</p>
 
-<p>
-  <img 
-    src="https://github.com/user-attachments/assets/1508361f-ca46-4c39-9043-67bf386a4954" 
-    alt="Mapa animado de los Pirineos" 
-    style="max-width: 90%; border: 2px solid #ff00c8; border-radius: 10px; box-shadow: 0 0 20px #ff00c8;">
-</p>
+## 🛠️ Tecnologías
+* **Python**: Lenguaje principal.
+* **GeoPandas & OSMnx**: Extracción y manejo de datos geográficos.
+* **Matplotlib**: Animación y estilo visual.
+
+## 🚀 Cómo funciona
+El script filtra las cumbres por su etiqueta `ele >= 3000` y las estaciones de esquí por `aerialway`. La animación utiliza un efecto de capas para crear el resplandor neón.
+
+---
+Hecho con 🐍 por [Mónica Gómez]
